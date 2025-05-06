@@ -12,7 +12,6 @@ import com.example.CostEstimation.Model.CostEstimate;
 
 @RestController
 @RequestMapping("/api/cost-estimates")
-@CrossOrigin(origins = "http://localhost:4200")
 public class CostEstimateController {
 
     @Autowired
